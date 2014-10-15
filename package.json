@@ -1,0 +1,19 @@
+{
+  "name": "gryd-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "minimist": "^1.1.0"
+  }
+}
