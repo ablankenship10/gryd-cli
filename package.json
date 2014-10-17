@@ -1,19 +1,20 @@
 {
   "name": "gryd-cli",
   "version": "0.1.0",
-  "description": "",
+  "description": "Command line interface for managing Gryd-based projects",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "node test"
+    "test": "mocha -b tests"
   },
-  "repository": "",
-  "author": "",
+  "author": "Aaron Blankenship",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.0.3",
-    "minimist": "^1.1.0"
+    "minimist": "^1.1.0",
+    "pluralize": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1"
   }
 }
