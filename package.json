@@ -1,6 +1,6 @@
 {
   "name": "gryd-cli",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "Command line interface for managing Gryd-based projects",
   "keywords": ["gryd","CLI","API","REST","command line interface","framework","autogenerate"],
   "main": "index.js",
@@ -13,6 +13,10 @@
   },
   "author": "Aaron Blankenship",
   "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "gryd-cli": "./lib/cli.js"
+  },
   "dependencies": {
     "colors": "^1.0.3",
     "ejs": "^1.0.0",
