@@ -1,6 +1,6 @@
 {
   "name": "gryd-cli",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Command line interface for managing Gryd-based projects",
   "keywords": ["gryd","CLI","API","REST","command line interface","framework","autogenerate"],
   "main": "index.js",
@@ -15,7 +15,7 @@
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
-    "gryd-cli": "./lib/cli.js"
+    "gryd-cli": "./bin/gryd-cli"
   },
   "dependencies": {
     "colors": "^1.0.3",
