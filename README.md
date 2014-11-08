@@ -5,12 +5,12 @@ Command line interface for managing Gryd-based projects
 ### NOTE: This tool may not yet run on Windows (Requires git, rm, cp commands)
 
 ### Features
-  - Quickly initialize new GrydProjects
+  - Quickly initialize new GrydScaffold project
   - Create modular applications on the fly
   - Auto-generate RESTful resources
-  - Switch between new and old GrydProject versions
+  - Switch between new and old GrydScaffold versions
   - Help menu changes based on available commands
-  - Freely modify the local install of GrydProject for use in newly generated projects
+  - Freely modify the local install of GrydScaffold for use in newly generated projects
 
 Installation
 ----
@@ -20,21 +20,16 @@ Installation
     //On first use
     gryd-cli install
 ```
-Tests (Coming soon)
---------------
 
-```js
-    npm test
-```
 
 Usage
 ----
 gryd-cli command params [--options]
 #### gryd-cli install [--v version]
-    Upon first use of the GrydCLI, install the latest (or selected) version of GrydProject locally for future use.
+    Upon first use of the GrydCLI, install the latest (or selected) version of GrydScaffold locally for future use.
 
-#### gryd-cli init name [--validator --docs]
-    Initialize a new GrydProject in the current directory. Optionally install other GrydTools.
+#### gryd-cli init name
+    Initialize a new GrydScaffold in the current directory.
 
 #### gryd-cli app name
     Generate a blank application in the current project.
@@ -43,12 +38,15 @@ gryd-cli command params [--options]
     Generate a RESTful resource (Model + Controller) in the application `app`
     
 #### gryd-cli update [--v version]
-    Update the local install of GrydProject to the latest (or selected) version of GrydProject
+    Update the local install of GrydScaffold to the latest (or selected) version of GrydScaffold
     
     
 
 Change Log
 ----
+#### 0.1.9
+>Pre push of new version features
+
 #### 0.1.0
 >Initial development
 
