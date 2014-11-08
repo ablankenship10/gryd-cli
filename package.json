@@ -1,6 +1,6 @@
 {
   "name": "gryd-cli",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Command line interface for managing Gryd-based projects",
   "keywords": ["gryd","CLI","API","REST","command line interface","framework","autogenerate"],
   "main": "index.js",
