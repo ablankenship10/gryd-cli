@@ -30,12 +30,6 @@ gryd-cli command params [--options]
 
 #### gryd-cli init name
     Initialize a new GrydScaffold in the current directory.
-
-#### gryd-cli app name
-    Generate a blank application in the current project.
-
-#### gryd-cli resource app name
-    Generate a RESTful resource (Model + Controller) in the application `app`
     
 #### gryd-cli update [--v version]
     Update the local install of GrydScaffold to the latest (or selected) version of GrydScaffold
@@ -44,6 +38,10 @@ gryd-cli command params [--options]
 
 Change Log
 ----
+#### 0.5.0
+>New release for Gryd version 0.5.0
+>Currently no specific functions for gryd projects
+
 #### 0.1.9
 >Pre push of new version features
 
