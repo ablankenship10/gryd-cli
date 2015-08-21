@@ -1,8 +1,16 @@
 {
   "name": "gryd-cli",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Command line interface for managing Gryd-based projects",
-  "keywords": ["gryd","CLI","API","REST","command line interface","framework","autogenerate"],
+  "keywords": [
+    "gryd",
+    "CLI",
+    "API",
+    "REST",
+    "command line interface",
+    "framework",
+    "autogenerate"
+  ],
   "main": "./lib/cli",
   "repository": {
     "type": "git",
@@ -16,6 +24,7 @@
   },
   "dependencies": {
     "colors": "^1.0.3",
+    "ejs": "^2.3.3",
     "minimist": "^1.1.0",
     "pluralize": "^1.0.2"
   }
